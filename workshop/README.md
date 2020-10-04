@@ -1,10 +1,11 @@
-# tensorflow2.0Tutorial
+# tensorflow2 Tutorial
 
 Python=3
 
 ## Installation
 ```
-pip install tensorflow==2.0.0-beta0
+pip install --upgrade pip
+pip install tensorflow
 pip install numpy
 pip install matplotlib
 pip install pillow
@@ -17,9 +18,7 @@ keras.applications.VGG16(input_shape=(224,224,3), weights='imagenet',include_top
 
 
 ## Usage
-This is a brief introduction of tailoring Tensorflow 2.0 for deep learning tasks. Some new features of Tensorflow 2.0 are demonstrated here such as Eagle mode and integrated Keras. 
-
-Some boxes in Eager.ipynb, KerasTraining.ipynb and RawTraining.ipynb are left blanked for you to fill as exercise for workshop. The complete solution is in 'solutins' folder.
+This is a brief introduction of tailoring Tensorflow 2 for deep learning tasks. Some new features of Tensorflow 2 are demonstrated here such as Eagle mode and integrated Keras. 
 
 The reading order should be as follows.
 
